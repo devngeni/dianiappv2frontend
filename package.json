@@ -4,9 +4,13 @@
   "private": true,
   "dependencies": {
     "@ctrl/react-adsense": "^1.6.1",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
     "@ethersproject/providers": "^5.7.2",
     "@fontsource/montserrat": "^4.5.13",
     "@formspree/react": "^2.4.0",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/material": "^5.11.8",
     "@testing-library/react": "^13.4.0",
     "@uauth/bnc-onboard": "^2.4.0",
     "@web3-react/core": "^6.1.9",

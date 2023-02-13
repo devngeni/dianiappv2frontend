@@ -117,3 +117,19 @@ a {
   padding-left: 10px;
   margin-left:10px;
 }
+
+
+
+
+/* Joan's CSS */
+.joan-first-nav-div{
+  max-width: 100vw;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+}
+.one-nav-div-joan-img{
+  width: 100%;
+  height: auto;
+  margin: 10px !important;
+}
