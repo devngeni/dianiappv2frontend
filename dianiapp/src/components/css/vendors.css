@@ -1,0 +1,15 @@
+/* Becky's CSS */
+.scrollNav {
+  max-width: 100vw;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+}
+.scrollNav p {
+  width: 100%;
+  height: auto;
+  margin: 10px !important;
+}
+.scrollNav::-webkit-scrollbar {
+  display: none;
+}
