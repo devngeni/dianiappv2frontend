@@ -6,6 +6,9 @@ function News() {
   return (
     <div className='News'>
         <NewsLayout />
+        <NewsLayout />
+        <NewsLayout />
+        <NewsLayout />
     </div>
   )
 }

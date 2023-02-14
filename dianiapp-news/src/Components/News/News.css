@@ -2,33 +2,38 @@
     color: white;
     width: 100vw;
     height: max-content;
+    border-top: ipx solid white;
 }
 .NewsLayout{
-    width: 60%;
+    width: 50%;
     display: flex;
     margin: auto;
     height: 200px ;
-    border: 1px solid firebrick;
     margin-bottom: 1rem;
+    border-bottom: 1px solid #FFFFFF;
+    padding-bottom: 1rem;
 }
 .news-img{
-    flex: 40%;
-    border: 1px solid green;
+    flex: 20%;
+    /* border: 1px solid green; */
+  
 }
 .news-content{
-    flex: 60%;
+    flex: 80%;
     display: block;
-    border: 1px solid rebeccapurple;
+    /* border: 1px solid rebeccapurple; */
     text-align: left;
     position: relative;
     color: #D9D9D9;
     font-size: large;
+    margin-left: 10px;
 
 }
 .news-img-spec{
-    width: 70%;
+    width: 100%;
     height: 100%;
     margin: auto;
+    border-radius: 10px;
 }
 .topic{
 font-family: 'Inter';
@@ -36,13 +41,18 @@ font-style: normal;
 font-weight: 700;
 font-size: 20px;
 line-height: 15px;
-
-/* identical to box height */
-
+position: absolute;
+top: 3%;
 display: flex;
 align-items: center;
 
 color: #FFFFFF;
+}
+.content{
+    width: 80%;
+    position: absolute;
+    height: max-content;
+    top: 20%;
 }
 .date{
     color: #818181;
@@ -50,12 +60,30 @@ color: #FFFFFF;
     position: absolute;
     bottom: 5%;
 }
-
+@media only screen and (max-width:1200px){
+    .NewsLayout{
+        width: 75%;
+    }
+    .content{
+        width: 95%;
+    }
+}
+@media only screen and (max-width:920px){
+    .NewsLayout{
+        width: 75%;
+    }
+    .content{
+        width: 95%;
+    }
+    .date{
+bottom: 5%;
+    }
+}
 @media only screen and (max-width:768px){
     .NewsLayout{
         width: 80%;
         display: flex;
-        height: 160px;
+        height: 180px;
     }
     .news-img{
         flex: 30%;
@@ -68,6 +96,13 @@ color: #FFFFFF;
     .news-img-spec{
         width: 80%;
         height: 100%;
+        border-radius: 8px;
+    }
+    .content{
+        width: 100%;
+        position: absolute;
+        height: max-content;
+        top: 20%;
     }
     .date{
         color: #818181;
@@ -90,6 +125,12 @@ color: #FFFFFF;
 .news-content{
     font-size: small;
 }
+.content{
+    width: 100%;
+    position: absolute;
+    height: max-content;
+    top: 15%;
+}
 .date{
     color: #818181;
     font-size: 8px;
@@ -97,4 +138,18 @@ color: #FFFFFF;
 .topic{
     font-size: 15px;
 }
+}
+
+@media only screen and (max-width:468px){
+    .NewsLayout{
+        height: 150px;
+    }
+    .news-img-spec{
+        height: 60%;
+        border-radius: 3px;
+    }
+    .content{
+        font-size: smaller;
+        top: 18%;
+    }
 }
