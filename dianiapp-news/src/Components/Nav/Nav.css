@@ -1,0 +1,51 @@
+.Nav{
+    width: 100vw;
+height: 77px;
+background: #241845;
+}
+.what-is-happening{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 19px;
+line-height: 23px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+
+}
+.semi-div{
+    width: 50%;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.back-list{
+    width: 34px;
+    height: 20px;
+    color: white;
+    background-color: #241845;
+}
+.back{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+color: white;
+}
+
+@media only screen and (max-width:768px){
+    .semi-div{
+    width: 80%;
+    margin: auto;
+}
+}
+@media only screen and (max-width:468px){
+    .semi-div{
+    width: 85%;
+    margin: auto;
+}
+}
