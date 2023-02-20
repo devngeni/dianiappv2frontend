@@ -4,13 +4,16 @@ import './News.css'
 import NewsLayout from './NewsLayout';
 import { newjson } from '../New';
 
-function News() {
+function News({news}) {
   return (
     <div className='News'>
-      <Link to='/news'>  <NewsLayout /></Link>
-        <NewsLayout />
-        <NewsLayout />
-        <NewsLayout />
+      {news.map((newsObject)=>(
+        <div key={newsObject.id}>
+          <Link to={`/news/${newsObject._id}`} >
+        <NewsLayout newsObject={newsObject}  />
+        </Link>
+        </div>
+      ))}
     </div>
   )
 }
