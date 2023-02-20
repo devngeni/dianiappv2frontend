@@ -1,0 +1,15 @@
+===> get all news
+GET
+https://server.dianiapp.me/news/all
+
+==> Create new news Item
+POST
+https://server.dianiapp.me/news/new
+BODY
+{
+title:"sample_title",
+description:"this is a product description",
+image: -----image upload (field name:image)
+time_stamp: epoch timestamp,
+time_stop: epoch timestamp
+}
