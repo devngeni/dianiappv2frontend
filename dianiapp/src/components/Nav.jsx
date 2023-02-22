@@ -10,7 +10,6 @@ import { NavLink } from "react-router-dom";
 import { usePwa } from "react-pwa-app";
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
-import image1 from './assets/food.png'
 
 function Nav() {
   const pwa = usePwa();
@@ -81,18 +80,8 @@ function Nav() {
 
         {/* ) : null} */}
       </div>
-  
-<div className="joan-first-nav-div">
-
- 
-  <img src={image1}  className="one-nav-div-joan-img"/>
-  <img src={image1}  className="one-nav-div-joan-img"/>
-  <img src={image1}  className="one-nav-div-joan-img"/>
-  <img src={image1}  className="one-nav-div-joan-img"/>
-  <img src={image1}  className="one-nav-div-joan-img"/>
 
 
-</div>
 
 
 

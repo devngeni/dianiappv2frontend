@@ -1,0 +1,30 @@
+.products-page-Becky {
+  position: relative;
+  overflow: hidden;
+  width: 500px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+.products-page-Becky .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  padding: 7px;
+}
+.products-page-Becky .card img {
+  border-radius: 10px;
+}
+.pricing-Becky {
+  color: #e2c56f;
+}
+@media screen and (max-width: 600px) {
+  .products-page-Becky {
+    width: 100%;
+    grid-gap: 0;
+  }
+  .products-page-Becky .card p {
+    font-size: 10px;
+  }
+}

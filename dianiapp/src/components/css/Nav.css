@@ -23,7 +23,7 @@
   padding-right: 2vw;
 }
 a {
-  text-decoration:none;
+  text-decoration: none;
   text-align: center;
 }
 .Button-container {
@@ -63,6 +63,11 @@ a {
     width: 100vw;
     overflow-x: hidden;
   }
+  .one-nav-div-joan-img {
+    width: 100% !important;
+    height: auto;
+    margin: 10px !important;
+  }
 }
 .Button-container:hover {
   background: #241845;
@@ -74,62 +79,62 @@ a {
 .pwa-con {
   position: fixed;
   bottom: 20px;
-  width: 100%; 
+  width: 100%;
 }
-.pwa-btn{
+.pwa-btn {
   justify-content: space-around;
   background-color: #241845;
   max-width: 300px;
-  width:60%;
+  width: 60%;
   margin: auto;
   border-radius: 5px;
   display: flex;
   flex-direction: row;
   padding: 10px 5px;
 }
-.pwa-btn h4{
+.pwa-btn h4 {
   color: #fff;
 }
-.pwa-btn button{
+.pwa-btn button {
   padding: 5px;
   border-radius: 5px;
-  border:1px solid #A9ADC0;
-  color:#fff;
-  background-color: #2D275B;
-  width:70px;
+  border: 1px solid #a9adc0;
+  color: #fff;
+  background-color: #2d275b;
+  width: 70px;
   height: 40px;
   font-weight: bold;
-  cursor:pointer;
+  cursor: pointer;
 }
-.date-time{
-  display:flex;
+.date-time {
+  display: flex;
   min-width: 140px;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.time{
-  display:flex;
+.time {
+  display: flex;
   min-width: 60px;
-  flex-direction:row;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
   padding-left: 10px;
-  margin-left:10px;
+  margin-left: 10px;
 }
 
-
-
-
 /* Joan's CSS */
-.joan-first-nav-div{
+.joan-first-nav-div {
   max-width: 100vw;
   display: flex;
   flex-wrap: nowrap;
   overflow-x: scroll;
 }
-.one-nav-div-joan-img{
-  width: 100%;
+.one-nav-div-joan-img {
+  width: 10%;
   height: auto;
   margin: 10px !important;
+}
+.joan-first-nav-div::-webkit-scrollbar {
+  display: none;
 }
