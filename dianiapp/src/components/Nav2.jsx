@@ -11,7 +11,12 @@ const Nav2 = () => {
             <img src={image1} className="one-nav-div-joan-img" />
             <img src={image1} className="one-nav-div-joan-img" />
             <img src={image1} className="one-nav-div-joan-img" />
-
+            <img src={image1} className="one-nav-div-joan-img" />
+            <img src={image1} className="one-nav-div-joan-img" />
+            <img src={image1} className="one-nav-div-joan-img" />
+            <img src={image1} className="one-nav-div-joan-img" />
+            <img src={image1} className="one-nav-div-joan-img" />
+            <img src={image1} className="one-nav-div-joan-img" />
 
         </div>
     )

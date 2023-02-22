@@ -1,0 +1,68 @@
+.single-product-page-Becky {
+  padding: 18px;
+}
+.single-product-pricing-becky {
+  color: #e2c56f;
+  display: flex;
+  justify-content: center;
+}
+
+.single-product-title-becky {
+  color: white;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+}
+.single-product-description-becky {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+.single-product-button-becky {
+  margin-bottom: 10px;
+  color: #e2c56f;
+  font-size: 23px;
+  font-family: "Inter";
+  font-style: normal;
+  line-height: 28px;
+  font-weight: 800;
+  width: 100%;
+  padding: 10px;
+  background-color: #2a2f45;
+  border: none;
+  border-radius: 7px;
+}
+.single-product-link-becky {
+  top: 10px;
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: underline;
+  color: #828282;
+}
+.single-product-card-Becky {
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 650px) {
+  .single-product-title-becky {
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: left;
+  }
+  .single-product-pricing-becky {
+    justify-content: left;
+  }
+  .single-product-description-becky {
+    display: flex;
+    justify-content: left;
+  }
+  .carousel {
+    max-height: 20vh;
+  }
+  .carousel-root {
+    height: 24vh;
+  }
+  .single-product-card-Becky {
+    height: auto;
+  }
+}

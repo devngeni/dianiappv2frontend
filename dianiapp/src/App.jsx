@@ -22,6 +22,7 @@ import ReactGA from "react-ga";
 import axios from "axios";
 import Fast from "./components/pages/Fast";
 import AllProducts from "./components/pages/products";
+import SingleProduct from "./components/pages/singleProduct";
 // import RatingView from "./components/pages/RatingView";
 
 // const TRACKING_ID = "G-Q6E9KV4GKH";
@@ -107,6 +108,7 @@ function App() {
             <Route path="/Activities" element={<Activities />} />
             <Route path="/how-it-works" element={<HowItWorks />} />
             <Route path="/vendors" element={<AllProducts />} />
+            <Route path="/single-vendor" element={<SingleProduct />} />
             {/* <Route path="/rate-us" element={<RatingView/>} /> */}
           </Routes>
           <MobileFooter setItIsOpen={setPopupOpen} />

@@ -16,12 +16,15 @@
 .products-page-Becky .card img {
   border-radius: 10px;
 }
+.pricing-Becky {
+  color: #e2c56f;
+}
 @media screen and (max-width: 600px) {
   .products-page-Becky {
     width: 100%;
     grid-gap: 0;
   }
   .products-page-Becky .card p {
-    font-size: 12px;
+    font-size: 10px;
   }
 }
