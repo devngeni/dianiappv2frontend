@@ -3,11 +3,11 @@ import Nav from './Nav/Nav.js';
 import './Home.css'
 import News from './News/News.js';
 
-function Home() {
+function Home({backPath,news}) {
   return (
     <div className='Home'>
-        <Nav />
-        <News />
+        <Nav backPath={backPath} />
+        <News news={news} />
     </div>
   )
 }
