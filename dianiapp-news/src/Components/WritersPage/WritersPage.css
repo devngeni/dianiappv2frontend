@@ -1,0 +1,48 @@
+.WritersPage{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #0D1433;
+    color: aqua;
+}
+.Input-div-news-j{
+    width: 50%;
+text-align: left;
+}
+input[type="text"]{
+    background-color: rgb(61, 64, 83);
+    padding: 10px 0px;
+    border-radius: 5px;
+}
+textarea{
+    background-color: rgb(61, 64, 83);
+    min-height: 20vh;
+    border-radius: 5px;
+}
+input:focus{
+    border: none;
+}
+textarea:focus{
+    border: none;
+}
+.submit-button-j{
+    background-color: aqua;
+    color: rgb(5, 5, 58);
+    padding: 5px 25px;
+}
+
+@media only screen and (max-width:920px){
+    .Input-div-news-j{
+        width: 60%;
+    }
+}
+@media only screen and (max-width:620px){
+    .Input-div-news-j{
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width:420px){
+    .Input-div-news-j{
+        width: 80%;
+    }
+}
