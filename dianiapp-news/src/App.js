@@ -12,7 +12,7 @@ function App() {
     const response = await fetch('https://server.dianiapp.me/news/all');
     const json = await response.json();
     await setNews(json)
-    console.log(json)
+    // console.log(json)
  }
 
 
