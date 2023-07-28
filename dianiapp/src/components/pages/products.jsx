@@ -47,7 +47,7 @@ const AllProducts = () => {
                 {productData.map((data, index) => {
                     return (
                         <div className="card" key={index} onClick={() => specificProduct(data._id, data.product_name, data.description, data.product_image, data.price, data.vendor_id)}>
-                            <img src={data.product_image} alt="" />
+                            <img src={data.product_image} alt="" style={{width:"100px", height:"auto"}}/>
                             <h4>{data.product_name}</h4>
                             <p className="card-p-Becky">{data.description}</p>
                             <p className="pricing-Becky">{data.price} /- <nbsp /><span>Lorem Ipsum</span></p>
